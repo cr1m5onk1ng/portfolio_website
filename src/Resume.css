@@ -1,0 +1,78 @@
+.resumeBody {
+    flex: 0.6;
+    background-color: #f9f9f9;
+    padding: 20px 20px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    color: rgb(53, 53, 53);
+}
+
+.section {
+    padding-bottom: 45px;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+}
+
+.sectionTitle {
+    margin-bottom: 30px;
+}
+
+.sectionTitle__text {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.aboutText {
+    color: darkslategray;
+    font: smaller;
+    line-height: 22px;
+    white-space: pre-line;
+}
+
+h3 {
+    padding-top: 0.25em;
+}
+
+.vertical-timeline-element-content {
+    box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25),
+        0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15) !important;
+    padding: 2em 3em !important;
+}
+
+#description {
+    margin: 1.5em 0 2em 0;
+}
+
+.skill {
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0px 0px 40px opx rgba(4, 6, 4, 0.08) !important;
+    min-height: 186px;
+    height: 100%;
+}
+
+.skill__title {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 35px;
+}
+
+.skill__description {
+    display: flex;
+    align-items: center;
+    color: #989898;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.timelineDot {
+    border-color: lightgray !important;
+    padding: 2px !important;
+    margin-right: 5px !important;
+}
+
+.skillsContainer{
+    display: flex;
+}

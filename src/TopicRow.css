@@ -1,0 +1,28 @@
+.topicRow {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    margin-top: 30px;
+}
+
+.topicRow__text {
+    display: flex;
+    flex-direction: column;
+}
+
+.topicRow__text > p {
+    color: #606060;
+    font-size: small !important;
+}
+
+.topicRow__logo {
+    height: 120px !important;
+    width: 120px !important;
+    margin: 10px 60px;
+}
+
+.topicRow__text > h4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

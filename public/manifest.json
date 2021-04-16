@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Portfolio",
+  "name": "Personal portfolio website",
   "icons": [
     {
       "src": "favicon.ico",
@@ -16,6 +16,11 @@
       "src": "logo512.png",
       "type": "image/png",
       "sizes": "512x512"
+    },
+    {
+      "src": "pythib-3.svg",
+      "type": "image/svg",
+      "sizes": "25x25" 
     }
   ],
   "start_url": ".",
