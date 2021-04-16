@@ -64,7 +64,7 @@ function Resume() {
                 "Italian - Mothertongue",
                 "English - Advanced",
                 "French - Advanced",
-                "Spanish - Intermediate-Advanced",
+                "Spanish - Intermediate/Advanced",
                 "Japanese - Beginner"
             ]
         },
@@ -72,27 +72,32 @@ function Resume() {
             title: "Frameworks/Libraries",
             elements: [
                 "PyTorch",
-                "Sklearn",
+                "Scikit-learn",
                 "Spacy",
                 "nltk",
                 "Android Jetpack",
                 "Flutter",
+                "Onnx",
                 "Tensorflow lite"
             ]
         },
         {
             title: "Fields of interest",
             elements: [
-                "Machine Learning",
                 "NLP",
                 "NLP on edge devices",
+                "Data science",
                 "Digital humanities",
-                "Data analytics",
                 "Mobile developement",
                 "Deep Learning for small projects"
             ]
         }
     ]
+
+    const about_me = "TL;DR\nI'm a CS/Informatics graduate looking for a job in some field related to Digital Humanities and/or NLP applications for small businesses / mobile devices. I also have a degree in Cultural Anthropology and I'm " +
+                    "very interested in everything related to languages, social sciences, cultures and humanities in general. My dream job would be to work as a bridge between the often too distant worlds of humanities and technology.\n" +
+                    "I'm also a language learner, and I'm now struggling with Japanese.\n" +
+                    "That's it."
 
     return (
         <div className="resumeBody">
@@ -104,7 +109,7 @@ function Resume() {
                 </Grid>
                 <Grid item  xs={12}>
                     <Typography variant="body2" className="aboutText" variant="h6">
-                    "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."
+                    {about_me}
                     </Typography>
 
                 </Grid>
