@@ -17,7 +17,7 @@ function Resume() {
     const experiences = [
         {
             id: 1,
-            title: "Computer Science/Informatics",
+            title: "BS in Computer Science/Informatics",
             date: "November 2016 - December 2020",
             location: "La Sapienza University of Rome",
             description: null,
@@ -41,7 +41,7 @@ function Resume() {
         },
         {
             id: 4,
-            title: "Anthropology",
+            title: "BA in Applied Anthropology",
             date: "November 2011 - July 2014",
             description: null,
             location: "La Sapienza University of Rome",
@@ -94,9 +94,9 @@ function Resume() {
         }
     ]
 
-    const about_me = "TL;DR\nI'm a CS/Informatics graduate looking for a job in some field related to Digital Humanities and/or NLP applications for small businesses / mobile devices. I also have a degree in Cultural Anthropology and I'm " +
-                    "very interested in everything related to languages, social sciences, cultures and humanities in general. My dream job would be to work as a bridge between the often too distant worlds of humanities and technology.\n" +
-                    "I'm also a language learner, and I'm now struggling with Japanese.\n" +
+    const about_me = "I'm a CS/Informatics and Social Sciences graduate looking for a job related to Digital Humanities and/or NLP applications for small businesses / mobile devices. I also have a degree in Cultural Anthropology and I'm " +
+                    "passionate about anything related to languages, social sciences, cultures and humanities in general. My dream job would be to work as a bridge between the often too distant worlds of humanities and technology.\n" +
+                    "I'm also a language learner in my spare time, and I'm now struggling with Japanese.\n" +
                     "That's it."
 
     return (
