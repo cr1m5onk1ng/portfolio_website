@@ -5,6 +5,7 @@ import ComputerIcon from '@material-ui/icons/Computer';
 import LibraryBooksIcon from '@material-ui/icons/LibraryBooks';
 import TranslateIcon from '@material-ui/icons/Translate';
 import Image from './static/avatar.png';
+import { ExternalLink } from 'react-external-link';
 
 
 function Sidebar() {
@@ -27,7 +28,7 @@ function Sidebar() {
 
             <div className="sidebar__stats">
                 <div className="sidebar__stat">
-                    <p>CS Graduate</p>
+                    <p>Computer Science Graduate</p>
                     <ComputerIcon />
                 </div>
                 <div className="sidebar__stat">
@@ -41,13 +42,24 @@ function Sidebar() {
             </div>
 
             <div className="sidebar__bottom">
-                <p>Github</p>
-                {recentItem('NLP at the edge')}
-                {recentItem('NaLa android app')}
-                {recentItem('Limapp flutter app')}
-                {recentItem('Semantic search')}
-                {recentItem('Topic modeling')}
-                {recentItem('Word sense disambiguation')}
+                <ExternalLink href="https://github.com/cr1m5onk1ng?tab=repositories">
+                    <p>Github</p>
+                </ExternalLink>
+                <ExternalLink href="https://github.com/cr1m5onk1ng/nala_android_app/tree/dev">
+                    {recentItem('NaLa android app')}
+                </ExternalLink>
+                <ExternalLink href="https://github.com/cr1m5onk1ng/limapp">
+                    {recentItem('Limapp flutter app')}
+                </ExternalLink>
+                <ExternalLink href="https://github.com/cr1m5onk1ng/semantic-search-api/tree/master">
+                    {recentItem('Semantic search')}
+                </ExternalLink>
+                <ExternalLink href="https://github.com/cr1m5onk1ng/japanese_news_scraper/tree/master">
+                    {recentItem('News collection')}
+                </ExternalLink>    
+                <ExternalLink href="https://github.com/cr1m5onk1ng/text_similarity/tree/master/src/experiments">
+                    {recentItem('Word sense disambiguation')}
+                </ExternalLink>                
             </div>
         </div>
     );

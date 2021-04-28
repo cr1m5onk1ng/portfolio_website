@@ -22,6 +22,14 @@ function ArticleList({topic}) {
                 description="Here's a list of all the projects I've been working on in the last few months"
             />
             <hr/>
+            <ExternalLink href="https://github.com/cr1m5onk1ng/text_similarity/tree/master/src/compression/mobile">
+                <ArticleRow 
+                    title="Building an on-device semantic search engine based on contextual embeddings for small corpuses [Work in progress]"
+                    description={"The app I'm building deals with saving sentences for later review. Wouldn't it be nice to have a tiny semantic search engine " +
+                                    "to easily look for similar sentences and words in our own local corpus?"}
+                    image="http://inmyownterms.com/wp-content/uploads/2018/02/Terminology-document-1600x1024.jpg"
+                />
+            </ExternalLink>
             <ExternalLink href="https://colab.research.google.com/drive/195YpXKjFMORpas_1xIOj0MjokTKKyFBA?usp=sharing">
                 <ArticleRow 
                     title="Bulding an on-device text classification model for an android language learning app"

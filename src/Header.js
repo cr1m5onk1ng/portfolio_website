@@ -18,7 +18,7 @@ function Header(){
                     <SearchIcon />
                     <input type="text"/>
                     */}
-                    <h2>Yo, I'm some guy you should probably hire</h2>
+                    <h2>Hi, I'm some guy you should probably hire</h2>
                 </div>
             </div>
             <div className="header__right">

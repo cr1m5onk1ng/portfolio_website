@@ -73,7 +73,7 @@ function Resume() {
             elements: [
                 "PyTorch",
                 "Scikit-learn",
-                "Spacy",
+                "spaCy",
                 "nltk",
                 "Android Jetpack",
                 "Flutter",
@@ -108,7 +108,7 @@ function Resume() {
 
                 </Grid>
                 <Grid item  xs={12}>
-                    <Typography variant="body2" className="aboutText" variant="h6">
+                    <Typography className="aboutText" variant="h6">
                     {about_me}
                     </Typography>
 
@@ -128,7 +128,7 @@ function Resume() {
                             >
                                {
                                    experiences.map(experience => {
-                                       let isWorkIcon = experience.icon == "work";
+                                       let isWorkIcon = experience.icon === "work";
                                         return (
                                             <VerticalTimelineElement
                                                 key={experience.key}
