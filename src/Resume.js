@@ -17,7 +17,7 @@ function Resume() {
     const experiences = [
         {
             id: 1,
-            title: "BS in Computer Science/Informatics",
+            title: "BS in Computer Science",
             date: "November 2016 - December 2020",
             location: "La Sapienza University of Rome",
             description: null,
@@ -28,7 +28,7 @@ function Resume() {
             title: "Freelance translator / proofreader",
             date: "Summer 2014 - December 2020",
             location: "Rome",
-            description: "Part-time translator from English / French / Spanish to Italian for local clients",
+            description: "Part-time freelance translator and/or proofreader from English / French to Italian for local clients",
             icon: "work"
         },
         {
@@ -94,9 +94,10 @@ function Resume() {
         }
     ]
 
-    const about_me = "I'm a CS/Informatics and Social Sciences graduate looking for a job related to Digital Humanities and/or NLP applications for small businesses / mobile devices. I also have a degree in Cultural Anthropology and I'm " +
-                    "passionate about anything related to languages, social sciences, cultures and humanities in general. My dream job would be to work as a bridge between the often too distant worlds of humanities and technology.\n" +
-                    "I'm also a language learner in my spare time, and I'm now struggling with Japanese.\n" +
+    const about_me = "I'm a Computer Science and Anthropology graduate looking for a job related to NLP applications, Digital Humanities and/or Data Science.\n\n" +
+                    "I'm particularly intrigued by the idea of implementing NLP functionalities for edge devices, especially for language learning support.\n\n" +
+                    "I'm passionate about anything related to languages, social sciences, cultures and humanities in general.\n\n My dream job would be to work as a bridge between the often too distant worlds of humanities and technology.\n\n" +
+                    "I'm also a language learner in my spare time, and I'm now struggling with Japanese.\n\n" +
                     "That's it."
 
     return (

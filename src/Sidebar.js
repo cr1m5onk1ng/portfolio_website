@@ -45,17 +45,20 @@ function Sidebar() {
                 <ExternalLink href="https://github.com/cr1m5onk1ng?tab=repositories">
                     <p>Github</p>
                 </ExternalLink>
-                <ExternalLink href="https://github.com/cr1m5onk1ng/nala_android_app/tree/dev">
+                <ExternalLink href="https://github.com/cr1m5onk1ng/text_similarity">
+                    {recentItem('Text similarity')}
+                </ExternalLink>
+                <ExternalLink href="https://github.com/cr1m5onk1ng/nala_android_app">
                     {recentItem('NaLa android app')}
                 </ExternalLink>
                 <ExternalLink href="https://github.com/cr1m5onk1ng/limapp">
                     {recentItem('Limapp flutter app')}
                 </ExternalLink>
-                <ExternalLink href="https://github.com/cr1m5onk1ng/semantic-search-api/tree/master">
+                <ExternalLink href="https://github.com/cr1m5onk1ng/semantic-search-api">
                     {recentItem('Semantic search')}
                 </ExternalLink>
-                <ExternalLink href="https://github.com/cr1m5onk1ng/japanese_news_scraper/tree/master">
-                    {recentItem('News collection')}
+                <ExternalLink href="https://github.com/cr1m5onk1ng/japanese_news_scraper">
+                    {recentItem('Data collection')}
                 </ExternalLink>    
                 <ExternalLink href="https://github.com/cr1m5onk1ng/text_similarity/tree/master/src/experiments">
                     {recentItem('Word sense disambiguation')}
