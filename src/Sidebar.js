@@ -51,7 +51,7 @@ function Sidebar() {
                 <ExternalLink href="https://github.com/cr1m5onk1ng/nala_android_app">
                     {recentItem('NaLa android app')}
                 </ExternalLink>
-                <ExternalLink href="https://github.com/cr1m5onk1ng/limapp">
+                <ExternalLink href="https://github.com/cr1m5onk1ng/limapp_flutter">
                     {recentItem('Limapp flutter app')}
                 </ExternalLink>
                 <ExternalLink href="https://github.com/cr1m5onk1ng/semantic-search-api">
