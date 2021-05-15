@@ -4,7 +4,7 @@ import { Avatar } from '@material-ui/core'
 import ComputerIcon from '@material-ui/icons/Computer';
 import LibraryBooksIcon from '@material-ui/icons/LibraryBooks';
 import TranslateIcon from '@material-ui/icons/Translate';
-import Image from './static/avatar.png';
+import Image from '../static/avatar.png';
 import { ExternalLink } from 'react-external-link';
 
 

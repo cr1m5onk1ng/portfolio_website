@@ -12,14 +12,8 @@ function Header(){
     return (
         <div className="header">
             <div className="header__left">
-                <img src="" alt=""/>
-                <div className="header__search">
-                    {/* 
-                    <SearchIcon />
-                    <input type="text"/>
-                    */}
-                    <h2>Hi, I'm some guy you should probably hire</h2>
-                </div>
+                    <h2>Mirco Cardinale</h2>
+                    <p>Developer, NLP, ML, Android</p>
             </div>
             <div className="header__right">
                 <Link to="/">

@@ -11,7 +11,7 @@ function ArticleRow({
     return (
         <div className="articleRow">
             <div className="articleRow__image">
-                <img src={image} alt="some image"/>
+                <img src={image} alt=""/>
             </div>
             <div className="articleRow__text">
                 <ExternalLink href={href}>

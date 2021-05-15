@@ -1,11 +1,10 @@
 import React from 'react';
-import Header from './Header';
-import Sidebar from './Sidebar';
+import Header from './components/Header';
+import Sidebar from './components/Sidebar';
 import './App.css';
-import Feed from './Feed';
-import Widgets from './Widgets';
-import ArticleList from './ArticleList';
-import Resume from './Resume';
+import Widgets from './components/Widgets';
+import ArticleList from './components/ArticleList';
+import Resume from './components/Resume';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 
 function App() {
