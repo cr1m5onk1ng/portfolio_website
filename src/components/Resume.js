@@ -95,7 +95,7 @@ function Resume() {
     ]
 
     const about_me = "I'm a Computer Science and Anthropology graduate looking for a job related to NLP applications, Digital Humanities and/or Data Science.\n\n" +
-                    "I'm particularly intrigued by the idea of implementing NLP functionalities for edge devices, especially for language learning support.\n\n" +
+                    "I'm particularly intrigued by the idea of implementing NLP functionalities in real-world products, especially for language learning support.\n\n" +
                     "I'm passionate about anything related to languages, social sciences, cultures and humanities in general.\n\n My dream job would be to work as a bridge between the often too distant worlds of humanities and technology.\n\n" +
                     "I'm also a language learner in my spare time, and I'm now struggling with Japanese.\n\n" +
                     "That's it."

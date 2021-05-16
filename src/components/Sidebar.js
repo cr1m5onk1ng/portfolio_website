@@ -42,7 +42,7 @@ function Sidebar() {
             </div>
 
             <div className="sidebar__bottom">
-                <ExternalLink href="https://github.com/cr1m5onk1ng?tab=repositories">
+                <ExternalLink href="https://github.com/cr1m5onk1ng">
                     <p>Github</p>
                 </ExternalLink>
                 <ExternalLink href="https://github.com/cr1m5onk1ng/text_similarity">
