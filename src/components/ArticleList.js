@@ -19,18 +19,10 @@ function ArticleList({topic}) {
             
             <TopicRow
                 title="Personal Projects"
-                description="A list of all the projects I've been working on in the last few months"
+                description="A list of the projects I've been working on in the last few months"
             />
             <hr/>
             
-            <ArticleRow 
-                title="On-device semantic search system for small corpuses [Experiment]"
-                description={"The app I'm building deals with saving sentences for later review. Wouldn't it be nice to have a tiny semantic search engine " +
-                                "to easily look for similar sentences and words in our own local corpus?"}
-                image="http://inmyownterms.com/wp-content/uploads/2018/02/Terminology-document-1600x1024.jpg"
-                href="https://github.com/cr1m5onk1ng/text_similarity/tree/master/src/compression/mobile"
-            />
-           
             <ArticleRow 
                 title="On-device text classification model for an android language learning app"
                 description={"Recently, I've been struggling to learn Japanese. In this article, I'm going to explain how and why I decided" + 
@@ -62,7 +54,15 @@ function ArticleList({topic}) {
                 image="https://cdn.pixabay.com/photo/2020/07/09/20/14/video-marketing-5388656_1280.png"
                 href="https://github.com/cr1m5onk1ng/limapp"
             />
-        
+
+            <ArticleRow 
+                title="On-device semantic search system for small corpuses [Experiment]"
+                description={"The app I'm building deals with saving sentences for later review. Wouldn't it be nice to have a tiny semantic search engine " +
+                                "to easily look for similar sentences and words in our own local corpus?"}
+                image="http://inmyownterms.com/wp-content/uploads/2018/02/Terminology-document-1600x1024.jpg"
+                href="https://github.com/cr1m5onk1ng/text_similarity/tree/master/src/compression/mobile"
+            />
+                 
             <ArticleRow 
                 title="Evaluating Sense Embeddings in word/sentence text similarity tasks: A graduation project"
                 description={"Word Sense Disambiguation is one of the most challenging tasks in NLP. Recently, a lot of progress has been made, especially" +
