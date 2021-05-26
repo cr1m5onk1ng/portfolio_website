@@ -13,7 +13,7 @@ function Header(){
         <div className="header">
             <div className="header__left">
                     <h2>Mirco Cardinale</h2>
-                    <p>Developer, NLP, ML, Android</p>
+                    <p>Developer, NLP, ML, Mobile</p>
             </div>
             <div className="header__right">
                 <Link to="/">
