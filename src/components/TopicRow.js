@@ -1,6 +1,5 @@
 import React from 'react'
 import './TopicRow.css'
-import {Avatar} from '@material-ui/core';
 
 function TopicRow({image, title, description}) {
     return (

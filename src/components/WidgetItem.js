@@ -8,7 +8,7 @@ function WidgetItem({widgetItems}) {
         return (
             <div className="widgetItem">
                 <div className="widgetItem__header">
-                    <img className="widgetItem__img" src={icon}/>    
+                    <img className="widgetItem__img" src={icon} alt=""/>    
                     <h4 className="widgetItem__content">{content}</h4>
                 </div>
                 <p className="widgetItem__subtitle">{subtitle}</p>   

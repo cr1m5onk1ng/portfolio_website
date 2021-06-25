@@ -1,6 +1,5 @@
 import React from 'react'
 import './ArticleList.css'
-import TuneOutlinedIcon from '@material-ui/icons/TuneOutlined'
 import TopicRow from './TopicRow'
 import ArticleRow from './ArticleRow'
 
