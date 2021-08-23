@@ -73,9 +73,9 @@ function Resume() {
             elements: [
                 "PyTorch",
                 "Scikit-learn",
-                "spaCy",
-                "nltk",
                 "Android Jetpack",
+                "React",
+                "Fiber (golang)",
                 "Flutter",
                 "Onnx",
                 "Tensorflow lite"
@@ -85,16 +85,15 @@ function Resume() {
             title: "Fields of interest",
             elements: [
                 "NLP",
-                "NLP on edge devices",
-                "Data science",
                 "Digital humanities",
-                "Mobile developement",
-                "Deep Learning for small projects"
+                "Web and mobile products",
+                "ML on-device",
+                "Deep Learning"
             ]
         }
     ]
 
-    const about_me = "I'm a Computer Science and Anthropology graduate looking for a job related to NLP applications, Digital Humanities and/or Data Science.\n\n" +
+    const about_me = "I'm a Computer Science and Anthropology graduate looking for a job that allows me to learn how to build quality products.\n\n" +
                     "I'm particularly intrigued by the idea of implementing NLP functionalities in real-world products, especially for language learning support.\n\n" +
                     "I'm passionate about anything related to languages, social sciences, cultures and humanities in general.\n\n My dream job would be to work as a bridge between the often too distant worlds of humanities and technology.\n\n" +
                     "I'm also a language learner in my spare time, and I'm now struggling with Japanese.\n\n" +
